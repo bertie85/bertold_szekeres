@@ -1,0 +1,138 @@
+*{
+  font-family:arial;
+  background-color:white;
+}
+
+body{
+  text-align:center;
+  height:1000px;
+  
+}
+
+div{
+  width: 940px;
+  margin:0 auto;
+  
+}
+
+.drop-content{
+  display:none;
+  margin:0 auto;
+  margin-bottom:90px;
+}
+
+.drop-wrap{
+  
+  margin-bottom:25px;
+}
+
+ul li{
+  text-align:left;
+  padding-top:12px;
+}
+
+p{
+  font-size:18px;
+  text-align:justify;
+  line-height:130%;
+}
+
+h2, h3, h4{
+  text-align:left;
+}
+
+h1{
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:30px;
+}
+
+h2{
+  padding:0;
+  margin:0;
+  border-bottom: 1px solid #5e7;
+  line-height:100%;
+  font-size:30px;
+}
+
+h3{
+  padding-top:40px;
+  font-size:16px;
+}
+
+h4{
+  font-size:24px;
+  font-weight:normal;
+  color: #3b6;
+}
+
+a{
+  cursor:pointer;
+  text-decoration:none;
+  color:#444;
+  font-weight:normal;
+  font-family: "Montserrat Hairline", arial;
+}
+
+.arrow{
+  float:left;
+  height:14px;
+  width:auto;
+}
+
+#div_main{
+  border:0;
+  margin-top:50px;
+}
+
+//The page layouts
+//------------------------------------------------------------------------------------
+
+header{
+  border: 0;
+  width: 940px;
+  margin:0 auto;
+  margin-bottom:90px;
+  text-align:left;
+  
+  img{
+    height:180px;
+    width:auto;
+  }
+  
+  p{
+    float:right;
+  }
+}
+
+
+footer{
+  text-align:center;
+  margin: 0 auto;
+  
+  div{
+    padding-right:67px;
+    margin:0 auto;
+    width:310px;
+  }
+  
+  nav{
+    text-align:center;
+    display:inline;
+    vertical-align:middle;
+  }
+  
+  ul li{
+    list-style:none;
+    padding:8px;
+    display:inline;
+  }
+  
+  img{
+    height:50px;
+    padding-bottom:8px;
+    width:auto;
+  }
+  
+  font-size: 12px;
+}
